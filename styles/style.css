@@ -1,3 +1,12 @@
+section, header, footer, main, div
+{
+  border:1px;
+  border-style: solid;
+  border-color: red;
+}
+h1, h2{
+  margin: 0;
+}
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -9,17 +18,63 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+.logo {
+  width: 183px;
+}
+.logo_place_header {
+  background: url('../images/logo_place_header.svg');
+  height: 32px;
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  z-index: 2;
+}
+.logo_place_footer {
+  background: url('../images/logo_place_footer.svg');
+  height: 35px;
+  position: absolute;
+}
+
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
-}
+  padding: 0;
+  /*выше сброс отступов*/
+  background-color: #f2f2f2;
+  color:#000000;
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+}
+.header__title {
+
+}
+.header__link {
+  text-decoration: none;
+  color: #2f80ed;
+}
+.header__subtitle {
+  width: 388px;
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  z-index: 2;
+}
+.header__main-illustration{
+  width:765px;
+  height: 608px;
+  position: absolute;
+  right:0;
+  bottom:0;
+  z-index: 1;
+}
 .header__square-pic {
   height: 568px;
   width: 568px;
+  background-color: #2f80ed;
+  position: absolute;
+  right:0;
+  bottom:0;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -28,4 +83,34 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+.description {
+  padding: 0;
+  /*выше сброс отступов*/
+  background-color: white;
+  color:#000000;
+}
+.digits {
+  padding: 0;
+  /*выше сброс отступов*/
+  background-color: white;
+  color:#000000;
+}
+.feynman {
+  padding: 0;
+  /*выше сброс отступов*/
+  background-color: #f2f2f2;
+  color:#000000;
+}
+.kaufman {
+  padding: 0;
+  /*выше сброс отступов*/
+  background-color:  #1f1f1f;
+  color:white;
+}
+.footer {
+  padding: 0;
+  /*выше сброс отступов*/
+  background-color:  #1f1f1f;
+  color:white;
 }
