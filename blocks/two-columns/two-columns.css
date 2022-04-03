@@ -1,0 +1,9 @@
+.two-columns {
+  min-height: 332px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  color:#000000;
+  margin: auto;
+}

@@ -1,0 +1,7 @@
+.techniques {
+  padding: 100px 0 0 0;
+  margin: 0 auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
