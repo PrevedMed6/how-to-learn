@@ -1,6 +1,4 @@
-@import url(../styles/normalize.css);
-/*Блок ссылок */
-@import url(../blocks/links/links.css);
+@import url(../vendor/normalize.css);
 /*Блок анимации вращения */
 @import url(../blocks/rotation/rotation.css);
 /*Блок page */
@@ -13,8 +11,8 @@
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-title/_theme/section-title_theme_dark.css);
 /*Блок section_subtitle */
-@import url(../blocks/section_subtitle/section_subtitle.css);
-@import url(../blocks/section_subtitle/_theme/section-subtitle_theme_dark.css);
+@import url(../blocks/section-subtitle/section-subtitle.css);
+@import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
 /*Блок header */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__title/header__title.css);
@@ -81,7 +79,7 @@
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
 @import url(../blocks/footer/__column/footer__column.css);
-@import url(../blocks/footer/__column/content/footer__column_content_copyrigh.css);
+@import url(../blocks/footer/__column/_content/footer__column_content_copyrigh.css);
 @import url(../blocks/footer/__column-heading/footer__column-heading.css);
 @import url(../blocks/footer/__column-links/footer__column-links.css);
 @import url(../blocks/footer/__column-link/footer__column-link.css);

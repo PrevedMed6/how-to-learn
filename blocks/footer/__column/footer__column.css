@@ -1,7 +1,7 @@
 .footer__column {
   display: flex;
   flex-direction: column;
-  min-height: 350px;
+  min-height: 250px;
   justify-content: flex-start;
   width: fit-content;
 }
